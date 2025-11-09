@@ -1,0 +1,97 @@
+.thumbnail {
+    /* object-fit: contain; this will make that image to resize to the given dimensions */
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.thumbnailContainer {
+    position: relative;
+}
+
+.time {
+    position: absolute;
+    bottom: 26px;
+    right: 10px;
+    background-color: black;
+    color: white;
+    padding: 6px;
+    border: none;
+    border-radius: 2px;
+    /* z-index: 1; */
+    opacity: 0.85;
+    font-size: 14px;
+
+}
+
+.container {
+    width: 300px;
+    /* by doing so, now the block elements takes only the container's width not the entire page width */
+    /* display: inline-block; */
+    /* vertical-align: top; */
+    /* margin-right: 15px; */
+}
+
+.ultimateGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 24px;
+}
+
+/* ----- Responsive websites using 'meadiaQuery' */
+
+@media (max-width: 850px) {
+    .ultimateGrid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 851px) and (max-width: 999px) {
+    .ultimateGrid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}
+
+@media (min-width: 1000px) {
+    .ultimateGrid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+.videoGrid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+/* .PFP { 
+                display: inline-block; 
+                width: 50px;
+                vertical-align: top;
+                background-color: grey;
+            }                            
+                --> thier functionality is replaced by display-grid property.
+
+            .videoText {
+                display: inline-block;
+                width: 200px;
+                background-color: grey;
+            } */
+
+.title {
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.author {
+    margin-bottom: 4px;
+    color: rgb(96, 96, 96);
+    font-size: 12px;
+}
+
+.stats {
+    color: rgb(96, 96, 96);
+    font-size: 12px;
+}

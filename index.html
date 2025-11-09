@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>YT.com Clone</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./styles[CSS]/generalProperties.css">
+<link rel="stylesheet" href="./styles[CSS]/header.css">
+<link rel="stylesheet" href="./styles[CSS]/navBar.css">
+<link rel="stylesheet" href="./styles[CSS]/mainBody.css">
+</head>
+
+<body>
+<header class="header">
+<div class="left">
+<img class="hamburger" src="./assets/icons/hamburger-menu.svg">
+<img class="YtLogo" src="./assets/icons/youtube-logo.svg">
+</div>
+
+<div class="middle">
+<input class="searchBar" type="text" placeholder="Search">
+
+<button class="searchButton">
+<img src="./assets/icons/search.svg" alt="" width="25px">
+<div class="tooltip">Search</div>
+</button>
+
+<button class="microPhone">
+<img src="./assets/icons/voice-search-icon.svg" alt="">
+<div class="tooltip">Voice Search</div>
+</button>
+</div>
+
+<div class="right">
+<div class="upload"><img src="./assets/icons/upload.svg" alt="" height="24px">
+<div class="tooltip">Create Videos</div>
+</div>
+
+<div class="apps"><img src="./assets/icons/youtube-apps.svg" alt="" height="24px">
+<div class="tooltip">Yt Apps</div>
+</div>
+<div class="notificationCount">
+<img src="./assets/icons/notifications.svg" alt="" height="24px">
+<div class="count">17</div>
+<div class="tooltip">Notifications</div>
+</div>
+<div class="profile"><img src="./assets/channel-logos/userPFP.svg" alt="" height="28px"
+style="margin-right: 20px;">
+<div class="tooltip">Made By <i><b>Jayanth A R</b></i></div>
+</div>
+</div>
+</header>
+
+<nav class="sideBar">
+<div class="sidebarBox"><img src="./assets/icons/home.svg" alt="">
+<p>Home</p>
+</div>
+<div class="sidebarBox"><img src="./assets/icons/explore.svg" alt="">
+<p>Explore</p>
+</div>
+<div class="sidebarBox"><img src="./assets/icons/subscriptions.svg" alt="">
+<p>Subscriptions</p>
+</div>
+<div class="sidebarBox"><img src="./assets/icons/originals.svg" alt="">
+<p>Originals</p>
+</div>
+<div class="sidebarBox"><img src="./assets/icons/youtube-music.svg" alt="">
+<p>Youtube Music</p>
+</div>
+<div class="sidebarBox"><img src="./assets/icons/library.svg" alt="">
+<p>Library</p>
+</div>
+</nav>
+
+<main><!-- make use of "nested layout" technique and "display-grid" properties-->
+<section class="ultimateGrid">
+<div>
+<div class="thumbnailContainer">
+<img class="thumbnail" src="./assets/thumbnails/thumbnail-1.webp" alt="404 img not found!">
+<div class="time">14:30</div>
+</div>
+
+<div class="videoGrid">
+<div>
+<img style="border-radius: 50%;" src="./assets/channel-logos/channel-1.jpeg"
+alt="404 not found!" width="38px">
+</div>
+<div>
+<p class="title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+<p class="author">Marques Brownlee</p>
+<p class="stats">3.4M views &#183; 9 months ago</p>
+</div>
+</div>
+</div>
+
+<div>
+<div class="thumbnailContainer">
+<img class="thumbnail" src="./assets/thumbnails/thumbnail-2.webp" alt="404 img not found!">
+<div class="time">8:22</div>
+</div>
+
+<div class="videoGrid">
+<div>
+<img style="border-radius: 50%;" src="./assets/channel-logos/channel-2.jpeg"
+alt="404 not found!" width="38px">
+</div>
+<div>
+<p class="title">Try Not To Laugh Challenge #9</p>
+<p class="author">Markiplier</p>
+<p class="stats">20M views &#183; 6 years ago</p>
+</div>
+</div>
+</div>
+
+<div>
+<div class="thumbnailContainer">
+<img class="thumbnail" src="./assets/thumbnails/thumbnail-3.webp" alt="404 img not found!">
+<div class="time">9:13</div>
+</div>
+<div class="videoGrid">
+<div>
+<img style="border-radius: 50%;" src="./assets/channel-logos/channel-3.jpeg"
+alt="404 not found!" width="38px">
+</div>
+<div>
+<p class="title">Crazy Tik Toks Taken Moments Before DISASTER</p>
+<p class="author">SSSniperWolf</p>
+<p class="stats">12M views &#183; 1 year ago</p>
+</div>
+</div>
+</div>
+
+<div>
+<div class="thumbnailContainer">
+<img class="thumbnail" src="./assets/thumbnails/thumbnail-4.webp" alt="404 img not found!">
+<div class="time">22:12</div>
+</div>
+<div class="videoGrid">
+<div>
+<img style="border-radius: 50%;" src="./assets/channel-logos/channel-4.jpeg"
+alt="404 not found!" width="38px">
+</div>
+<div>
+<p class="title">The Simplest Math Problem No One Can Solve - Collatz Conjecture</p>
+<p class="author">Veritasiumr</p>
+<p class="stats">18M views &#183; 4 years ago</p>
+</div>
+</div>
+</div>
+
+<div>
+<div class="thumbnailContainer">
+<img class="thumbnail" src="./assets/thumbnails/thumbnail-5.webp" alt="404 img not found!">
+<div class="time">18:40</div>
+</div>
+<div class="videoGrid">
+<div>
+<img style="border-radius: 50%;" src="./assets/channel-logos/channel-5.jpeg"
+alt="404 not found!" width="38px">
+</div>
+<div>
+<p class="title">
+Kadane's Algorithm to Maximum Sum Subarray Problem</p>
+<p class="author">CS Dojo</p>
+<p class="stats">519K views &#183; 5 years ago</p>
+</div>
+</div>
+</div>
+
+<div>
+<div class="thumbnailContainer">
+<img class="thumbnail" src="./assets/thumbnails/thumbnail-6.webp" alt="404 img not found!">
+<div class="time">30:12</div>
+</div>
+<div class="videoGrid">
+<div>
+<img style="border-radius: 50%;" src="./assets/channel-logos/channel-6.jpeg"
+alt="404 not found!" width="38px">
+</div>
+<div>
+<p class="title">Anything You Can Fit In The Circle I'll Pay For!</p>
+<p class="author">MrBeast</p>
+<p class="stats">141M views &#183; 1 year ago</p>
+</div>
+</div>
+</div>
+
+<div>
+<div class="thumbnailContainer">
+<img class="thumbnail" src="./assets/thumbnails/thumbnail-7.webp" alt="404 img not found!">
+<div class="time">18:46</div>
+</div>
+<div class="videoGrid">
+<div>
+<img style="border-radius: 50%;" src="./assets/channel-logos/channel-7.jpeg"
+alt="404 not found!" width="38px">
+</div>
+<div>
+<p class="title">Why Planes Don't Fly Over Tibet!</p>
+<p class="author">RealLifeLore</p>
+<p class="stats">6.6M views &#183; 1 year ago</p>
+</div>
+</div>
+</div>
+
+<div>
+<div class="thumbnailContainer">
+<img class="thumbnail" src="./assets/thumbnails/thumbnail-8.webp" alt="404 img not found!">
+<div class="time">17:09</div>
+</div>
+<div class="videoGrid">
+<div>
+<img style="border-radius: 50%;" src="./assets/channel-logos/channel-8.jpeg"
+alt="404 not found!" width="38px">
+</div>
+<div>
+<p class="title">
+Inside The World's Biggest Passenger Plane</p>
+<p class="author">Tech Vision</p>
+<p class="stats">3.7M views &#183; 10 months ago</p>
+</div>
+</div>
+</div>
+
+<div>
+<div class="thumbnailContainer">
+<img class="thumbnail" src="./assets/thumbnails/thumbnail-9.webp" alt="404 img not found!">
+<div class="time">13:18</div>
+</div>
+<div class="videoGrid">
+<div>
+<img style="border-radius: 50%;" src="./assets/channel-logos/channel-9.jpeg"
+alt="404 not found!" width="38px">
+</div>
+<div>
+<p class="title">
+The SECRET to Super Human STRENGTH</p>
+<p class="author">ThenX</p>
+<p class="stats">20M views &#183; 3 year ago</p>
+</div>
+</div>
+</div>
+
+<div>
+<div class="thumbnailContainer">
+<img class="thumbnail" src="./assets/thumbnails/thumbnail-10.webp" alt="404 img not found!">
+<div class="time">7:53</div>
+</div>
+<div class="videoGrid">
+<div>
+<img style="border-radius: 50%;" src="./assets/channel-logos/channel-10.jpeg"
+alt="404 not found!" width="38px">
+</div>
+<div>
+<p class="title">
+How The World's Largest Cruise Ship Makes 30,000 Meals Every Day</p>
+<p class="author">Business Insider</p>
+<p class="stats">14M views &#183; 1 year ago</p>
+</div>
+</div>
+</div>
+
+<div>
+<div class="thumbnailContainer">
+<img class="thumbnail" src="./assets/thumbnails/thumbnail-11.webp" alt="404 img not found!">
+<div class="time">4:10</div>
+</div>
+<div class="videoGrid">
+<div>
+<img style="border-radius: 50%;" src="./assets/channel-logos/channel-11.jpeg"
+alt="404 not found!" width="38px">
+</div>
+<div>
+<p class="title">
+Dubai's Crazy Underwater Train and Other Things #Only in Dubai</p>
+<p class="author">Destination Tips</p>
+<p class="stats">3M views &#183; 6 year ago</p>
+</div>
+</div>
+</div>
+
+<div>
+<div class="thumbnailContainer">
+<img class="thumbnail" src="./assets/thumbnails/thumbnail-12.webp" alt="404 img not found!">
+<div class="time">4:51</div>
+</div>
+<div class="videoGrid">
+<div>
+<img style="border-radius: 50%;" src="./assets/channel-logos/channel-12.jpeg"
+alt="404 not found!" width="38px">
+</div>
+<div>
+<p class="title">
+What would happen if you didn’t drink water? - Mia Nacamulli</p>
+<p class="author">TED-Ed</p>
+<p class="stats">12M views &#183; 5 year ago</p>
+</div>
+</div>
+</div>
+</section>
+</main>
+</body>
+
+</html>
