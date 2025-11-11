@@ -27,7 +27,7 @@ just clone the repo and open `index.html` in your browser.
 git clone https://github.com/satoru1726/youtube-clone.git
 ```
 ## author
-•Jayanth A R•<br>
+**_Jayanth A R_**<br>
 aspiring Full Stack Dev.<br>
 mail: <zeninmakisan2025@gmail.com><br>
 linkedIn: <www.linkedin.com/in/jayanth-a-r-254232323>
