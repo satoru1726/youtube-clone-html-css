@@ -1,4 +1,4 @@
-# youTube-clone
+# YouTube-Clone
 
 a responsive YouTube.com clone built using **HTML5** and **CSS3** to practice modern web layout techniques.
 
@@ -27,10 +27,13 @@ just clone the repo and open `index.html` in your browser.
 git clone https://github.com/satoru1726/youtube-clone.git
 ```
 ## author
-**_Jayanth A R_**<br>
-aspiring Full Stack Dev.<br>
-mail: <zeninmakisan2025@gmail.com><br>
-linkedIn: <www.linkedin.com/in/jayanth-a-r-254232323>
+**_Jayanth A R_**
+<br>
+aspiring Full Stack Dev.
+<br>
+mail: jayanthcrpar@gmail.com
+<br>
+linkedIn: www.linkedin.com/in/jayanth-a-r-254232323
 
 ## license
 this project is open-source and available under the MIT License.
