@@ -3,14 +3,10 @@
     left: 0px;
     bottom: 0px;
     top: 60px;
-
     width: 75px;
-
     display: flex;
     flex-direction: column;
-
     padding-top: 20px;
-
     z-index: 200;
     background-color: white;
 }
@@ -18,23 +14,18 @@
 .sidebarBox {
     display: flex;
     flex-direction: column;
-
     justify-content: center;
     align-items: center;
-
     height: 74px;
-
 }
 
 .sidebarBox img {
-    /* this syntax allows us to target all the img elements that are inside our class .sidebarBox */
     width: 28px;
 }
 
 .sidebarBox p {
     font-size: 10px;
     margin-top: 8px;
-
 }
 
 .sidebarBox:hover {
